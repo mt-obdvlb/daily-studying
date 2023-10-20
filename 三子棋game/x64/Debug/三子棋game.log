@@ -1,0 +1,6 @@
+﻿  game.c
+  test.c
+D:\桌面\Code\三子棋game\test.c(96,11): warning C4129: “m”: 不可识别的字符转义序列
+  正在生成代码...
+D:\桌面\Code\三子棋game\test.c(141): warning C4715: “is_win”: 不是所有的控件路径都返回值
+  三子棋game.vcxproj -> D:\桌面\Code\三子棋game\x64\Debug\三子棋game.exe
