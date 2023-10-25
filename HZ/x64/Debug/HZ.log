@@ -1,7 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(HZ.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  239.c
-D:\桌面\Code\HZ\239.c(36,7): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
-D:\桌面\Code\HZ\239.c(44,8): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
-D:\桌面\Code\HZ\239.c(49,8): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
-D:\桌面\Code\HZ\239.c(54,8): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
-  HZ.vcxproj -> D:\桌面\Code\HZ\x64\Debug\递归.exe
