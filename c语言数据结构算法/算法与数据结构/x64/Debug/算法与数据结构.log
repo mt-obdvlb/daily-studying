@@ -1,0 +1,4 @@
+﻿  跳跃表.c
+D:\桌面\Code\算法与数据结构\跳跃表.c(140,1): warning C4005: “min”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1283,1): message : 参见“min”的前一个定义
+  算法与数据结构.vcxproj -> D:\桌面\Code\算法与数据结构\x64\Debug\算法与数据结构.exe
