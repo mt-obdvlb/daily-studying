@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .fa {
+            position: relative;
+            perspective: 800px;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            background-color: pink;
+            transform-style: preserve-3d;
+            transition: all 2s;
+            /* transform: rotateY(89deg); */
+
+        }
+
+        .fa div {
+            width: 200px;
+            height: 200px;
+        }
+
+        .box {
+            background-color: green;
+            transform: translateZ(100px);
+        }
+
+        .box2 {
+            left: 0;
+            top: 0;
+            position: absolute;
+            background-color: orange;
+            transform: translateZ(-100px);
+        }
+
+        .fa:hover {
+            transform: rotateY(90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fa">
+        <div class="box"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+
+</html>

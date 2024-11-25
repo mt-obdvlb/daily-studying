@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        .box{
+            height: 140px;
+            width: 140px;
+            border: 1px solid #000;
+            margin: 50px;
+            background-image: url(images/bg.png);
+            animation: run 1s steps(12) infinite,
+            move 1s infinite altern ate
+            ;
+        }
+
+        @keyframes run {
+            from{
+                background-position: 0 0;
+            }
+
+            to{
+                background-position: -1680px 0;
+            }
+        }
+
+        @keyframes move {
+            from{
+                transform: translate(0);
+            }
+            
+            to{
+                transform: translate(800px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
