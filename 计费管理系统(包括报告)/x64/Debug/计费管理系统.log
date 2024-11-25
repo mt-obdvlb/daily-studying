@@ -1,0 +1,15 @@
+﻿  card.c
+D:\桌面\Code\计费管理系统(包括报告)\card.c(2,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  charge.c
+D:\桌面\Code\计费管理系统(包括报告)\charge.c(140,25): warning C4244: “-=”: 从“__int64”转换到“int”，可能丢失数据
+D:\桌面\Code\计费管理系统(包括报告)\charge.c(145,14): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  chargeRule.c
+  cost.c
+  meun.c
+  other.c
+D:\桌面\Code\计费管理系统(包括报告)\other.c(93,8): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+  search.c
+  main.c
+  正在生成代码...
+D:\桌面\Code\计费管理系统(包括报告)\other.c(105): warning C4172: 返回局部变量或临时变量的地址: time1
+  计费管理系统.vcxproj -> D:\桌面\Code\计费管理系统(包括报告)\x64\Debug\计费管理系统.exe

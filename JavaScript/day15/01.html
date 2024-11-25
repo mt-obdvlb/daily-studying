@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+    <script src="lodash.min.js"></script>
+    <script>
+        const box = document.querySelector('.box')
+        let i = 1
+        function mouseMove(){
+            box.innerHTML = i++
+        }
+        function debounce(fn, t){
+            let timer
+            return () => {
+                 if(timer) clearTimeout(timer)
+                 timer = setTimeout(() => {
+                    fn()
+                }, t)
+            }
+        }
+        box.addEventListener('mousemove', debounce(mouseMove, 500))
+    </script>
+</body>
+
+</html>

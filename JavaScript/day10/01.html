@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <script>
+        const obj = {
+            age: 19,
+            gender: 'man',
+        }
+        localStorage.setItem('obj', JSON.stringify(obj)) 
+        console.log(JSON.parse(localStorage.getItem('obj')));
+        
+    </script>
+</body> 
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        let money = 0
+        let tmp
+        while (1) {
+            let op = +prompt('请选择操作:\n \t \t1.存钱\n\t\t2.取钱\n\t\t3.查看余额\n\t\t4.退出')
+            if (op === 4) break
+            switch (op) {
+                case 1:
+                    tmp = +prompt('money:')
+                    money += tmp
+                    break
+                case 2:
+                    tmp = +prompt('money:')
+                    money -= tmp
+                    break
+                case 3:
+                    alert(money)
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .father {
+            height: 500px;
+            width: 500px;
+            background-color: pink;
+  
+            transition: all 1s;
+        }
+
+        .son {
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+    <script>
+        const fa = document.querySelector('.father')
+        const son = document.querySelector('.son')
+        function fn () {
+                alert('yefuck')
+            }
+        document.addEventListener('click', fn)
+        document.removeEventListener('click', fn)
+    </script>
+</body>
+
+</html>                                    
